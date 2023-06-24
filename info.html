@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- 
         Author:     Tyler Pitcock
@@ -11,6 +12,7 @@
     <title>Info</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <nav>
         <a href="index.html">Home</a> <br>
@@ -20,7 +22,7 @@
 
     <div>
         <h2>Book some classes today!</h2>
-        <form action="get" action="thankyou.html">
+        <form method="get" action="thankyou.html">
             <fieldset>
                 <legend>
                     Contact Information
@@ -43,11 +45,11 @@
                 </label>
                 <label for="contactpref">
                     Contact Preference:
-                    <select name="contactpref" id="contactpref" required>
-                        <option value="Phone">Phone</option>
-                        <option value="Text">Text</option>
-                        <option value="Email">Email</option>
-                        <option value="Owl">Owl</option>
+                    <select name="contactpref" id="contactpref">
+                        <option value="phone">Phone</option>
+                        <option value="text">Text</option>
+                        <option value="email">Email</option>
+                        <option value="owl">Owl</option>
                     </select>
                 </label>
             </fieldset>
@@ -106,7 +108,8 @@
             <fieldset>
                 <legend>Additional Comments</legend>
                 <label for="additionalinfo">
-                    <textarea name="additionalinfo" id="additionalinfo" cols="30" rows="10" placeholder="Please enter any addtional comments or concerns here!"></textarea>
+                    <textarea name="additionalinfo" id="additionalinfo" cols="30" rows="10"
+                        placeholder="Please enter any addtional comments or concerns here!"></textarea>
                 </label>
             </fieldset>
 
@@ -114,4 +117,5 @@
     </div>
 
 </body>
+
 </html>
