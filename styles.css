@@ -31,7 +31,7 @@ a:hover {
 }
 
 /* Home Page */
-#homebody {
+#storage {
     background-color: #e6ffff;
     border: solid 3px;
     border-radius: 5px;
@@ -40,7 +40,7 @@ a:hover {
     margin-right: 125px;
 }
 
-#homebody h1 {
+#storage h1 {
     background-color: gray;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -104,14 +104,50 @@ tr:nth-child(even){
     background-color: lightgray;
 }
 
+/* Booking Page */
+#form {
+    background-color: #e6ffff;
+    border: solid 3px;
+    border-radius: 5px;
+    margin: 10px 0px 0px 145px; width: 80%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#form h2 {
+    background-color: gray;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: double 3px;
+    border-radius: 10px;
+}
+
+#contactinfo label {
+    display: block; padding-bottom: 5px; position: relative;
+}
+
+#contactinfo input {
+    position: relative; width: 100%
+}
+
+.submit {
+    width: 500px; position: initial;
+    margin: 10px
+}
+
 /* All Pages */
 footer {
+    bottom: 0;
+    width: 99%;
+    height: 80px;
     background-color: dimgrey;
     border-radius: 5px;
     text-align: center;
-    padding-bottom: 2px;
 }
 
-#contactinfo a {
+#reachus a {
     color: #e6ffff;
 }
