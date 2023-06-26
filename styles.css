@@ -141,10 +141,9 @@ tr:nth-child(even) {
     width: 100%
 }
 
-.submit {
-    width: 500px;
-    position: initial;
-    margin: 10px
+#search {
+    margin: 10px;
+    text-align: center;
 }
 
 /* All Pages */
