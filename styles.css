@@ -36,8 +36,9 @@ a:hover {
     border: solid 3px;
     border-radius: 5px;
     text-align: center;
-    margin-left: 125px;
-    margin-right: 125px;
+    margin-left: 145px;
+    margin-right: 145px;
+    box-shadow: 5px 5px 25px;
 }
 
 #storage h1 {
@@ -66,7 +67,8 @@ h4 {
 
 /* Class Calander Page */
 table {
-    margin: 10px 0px 0px 145px; width: 80%;
+    margin: 10px 0px 0px 145px;
+    width: 80%;
     border: solid 3px;
     border-collapse: collapse;
     border-radius: 8px;
@@ -75,7 +77,8 @@ table {
     box-shadow: 5px 5px 25px;
 }
 
-th, td {
+th,
+td {
     width: 33%;
     border: solid 2px;
     text-align: center;
@@ -95,12 +98,12 @@ td {
 
 td > p {
     font-style: italic;
-    font-weight: none;
+    font-weight: lighter;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: crimson;
 }
 
-tr:nth-child(even){
+tr:nth-child(even) {
     background-color: lightgray;
 }
 
@@ -109,9 +112,11 @@ tr:nth-child(even){
     background-color: #e6ffff;
     border: solid 3px;
     border-radius: 5px;
-    margin: 10px 0px 0px 145px; width: 80%;
+    margin: 10px 0px 0px 145px;
+    width: 80%;
     padding-top: 5px;
     padding-bottom: 5px;
+    box-shadow: 5px 5px 25px;
 }
 
 #form h2 {
@@ -126,15 +131,19 @@ tr:nth-child(even){
 }
 
 #contactinfo label {
-    display: block; padding-bottom: 5px; position: relative;
+    display: block;
+    padding-bottom: 5px;
+    position: relative;
 }
 
 #contactinfo input {
-    position: relative; width: 100%
+    position: relative;
+    width: 100%
 }
 
 .submit {
-    width: 500px; position: initial;
+    width: 500px;
+    position: initial;
     margin: 10px
 }
 
